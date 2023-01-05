@@ -37,7 +37,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav li {
@@ -79,6 +79,7 @@ nav ul {
     font-size: 18px;
     color: #757575;
     margin-bottom: 30px;
+
 }
 
 .banner img {}
@@ -100,4 +101,77 @@ main {
 .section-t {
     text-align: center;
     margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.about-para {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.aboutinfo {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    text-align: center;
+}
+
+.infodes {
+    font-weight: 700;
+    font-size: 20px;
+    color: #757575;
+}
+
+/* What I do */
+.what-I-do {
+    margin-top: 130px;
+}
+.section-t2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+/* skill */
+
+.skill {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-con {
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-sec {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    
+
 }
